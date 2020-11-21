@@ -1,0 +1,41 @@
+<div>
+    <style>
+        .modalControles {
+            height: 27px !important;
+            font-size: 11px !important;
+            text-align: center;
+        }
+
+        .ngdialog.ngdialog-theme-default {
+            padding-top: 5px;
+        }
+
+        .modalTabla {
+            font-size: 12px !important;
+        }
+    </style>
+    <div ng-app="myApp" ng-controller="usuariosController">
+        <div class="modal-header">
+            <h3 class="modal-title" style="text-align: center">Perfil</h3>
+        </div>
+        <div class="modal-body" style="text-align: center">
+            <div class="row divPerfiles">
+                <div class="form-group col-md-12" style="text-align: center">
+                    <label class="labelsSitio" for="usuario">PERFIL</label>
+                    <input type="text"
+                           id="perfilModal"
+                           name="perfilModal"
+                           ng-model="perfilModal"
+                           class="form-control" autocomplete="off" />
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button ng-click="grabarPerfil()" class="btn btn-primary ">Aceptar</button>
+            <button ng-click="closeThisDialog(0)" class="btn btn-warning">Cerrar</button>
+        </div>
+        <!--
+        </div>
+    </div>-->
+    </div>
+</div>

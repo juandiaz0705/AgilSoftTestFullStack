@@ -1,0 +1,148 @@
+<STYLE TYPE="text/css">
+BODY
+{
+    COLOR: #000000;
+    body bgcolor="#000000";
+    FONT-FAMILY: Arial,Helvetica,Sans Serif;
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+}
+
+P.PORTADA
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 30pt;
+    FONT-WEIGHT: normal;
+}
+
+TD
+{
+    COLOR: #000000;
+    FONT-FAMILY: Arial,Helvetica,Sans Serif;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: normal;
+    TEXT-DECORATION: none
+	
+}
+
+H1
+{
+    COLOR: #EC870E;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 16pt;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none;
+}
+
+H2
+{
+    COLOR: #2E1565;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 12pt;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none;
+}
+
+.newlink
+{
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana,Helvetica,Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+
+a:hover { 
+	COLOR:#FCB44C;
+	TEXT-DECORATION: none
+}
+
+
+a:active
+{
+    COLOR: #FCB44C;
+	TEXT-DECORATION: none
+}
+
+.linkopcion
+{
+    COLOR: #156498;
+    FONT-FAMILY: Arial, Verdana,Helvetica;
+    FONT-SIZE: 7.5pt;
+    FONT-WEIGHT: bold;
+	TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+
+.linkopcion:hover
+{
+    COLOR: #CC0000;
+    FONT-FAMILY: Arial, Verdana,Helvetica;
+    FONT-SIZE: 7.5pt;
+    FONT-WEIGHT: bold;
+	TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+
+.indicador
+{
+    COLOR: #A1D4FB;
+    FONT-FAMILY: Verdana,Helvetica,Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+	TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+
+.fecha
+{
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana,Helvetica,Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+	TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+
+.azuldatos
+{
+    COLOR: #09008B;
+    FONT-FAMILY: Verdana,Helvetica,Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: normal;
+	TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+
+.burdedatos
+{
+    COLOR: #940404;
+    FONT-FAMILY: Verdana,Helvetica,Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+	TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+
+.Opcion
+{
+    COLOR: #156498;
+    FONT-FAMILY: Arial, Verdana,Helvetica;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+	TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}
+
+.SubOpcion
+{
+    COLOR: #156498;
+    FONT-FAMILY: Arial, Verdana,Helvetica;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold;
+	TEXT-ALIGN: left;
+    TEXT-DECORATION: none
+}	
+</STYLE>

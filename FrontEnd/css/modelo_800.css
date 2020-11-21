@@ -1,0 +1,1145 @@
+<STYLE TYPE="text/css">
+A:link
+{
+    COLOR: dodgerblue;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: mediumblue;
+    FONT-FAMILY: Arial;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: navy
+}
+A
+{
+    COLOR: #000e78;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    TEXT-DECORATION: none
+}
+A.clsTocHeading
+{
+    COLOR: red;
+    TEXT-DECORATION: none
+}
+A.clsTocItem
+{
+    COLOR: red;
+    TEXT-DECORATION: none
+}
+A.clsTocItemSelect
+{
+    COLOR: black;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+BODY
+{
+    BACKGROUND-COLOR: white;
+    COLOR: mediumblue;
+    FONT-FAMILY: Arial, Script;
+    FONT-SIZE: x-small;
+}
+.clsShowHide
+{
+    CURSOR: hand;
+    LIST-STYLE: disc;
+    MARGIN-LEFT: 20px
+}
+.clsShowHideShowing
+{
+    CURSOR: hand
+}
+UL.clsItemsShow
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    LIST-STYLE: url(../imagenes/arrowstop.gif);
+    MARGIN-LEFT: 10px
+}
+UL.clsItemsHide
+{
+    DISPLAY: none;
+    FONT-SIZE: 9px
+}
+.clsStyleCheck
+{
+    MARGIN-LEFT: 15px;
+    MARGIN-TOP: 5px
+}
+.clsStyleText
+{
+    CURSOR: default;
+    FONT-SIZE: 9px;
+    MARGIN-LEFT: 34px;
+    MARGIN-TOP: -16px
+}
+.pagEncabezado
+{
+    BACKGROUND-COLOR: aqua;
+    FONT-FAMILY: Book Antiqua
+}
+.pagFooter
+{
+    BACKGROUND-COLOR: yellow;
+    FONT-FAMILY: Georgia
+}
+MARQUEE
+{
+    FONT-FAMILY: Arial
+}
+TD
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-TOP: thin;
+    FONT-FAMILY: 'Arial';
+    FONT-SIZE: 10pt;
+    FONT-WEIGHT: normal
+}
+TABLE.clsTopToolbar
+{
+    FONT-FAMILY: Verdana
+}
+BUTTON
+{
+    BACKGROUND-IMAGE: url(../imagenes/plus.gif);
+    FONT-FAMILY: Arial
+}
+CAPTION
+{
+    BACKGROUND-IMAGE: url(../imagenes/Tit_Caption10.gif);
+    COLOR: white;
+    FONT-FAMILY: Arial, 'Comic Sans MS';
+    FONT-SIZE: 9pt;
+   /* FONT-WEIGHT: bold;*/
+    PADDING-BOTTOM: 2pt;
+    PADDING-TOP: 2pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 10pt;
+    VERTICAL-ALIGN: sub
+}
+COL
+{
+    FONT-FAMILY: Arial
+}
+FORM
+{
+    FONT-FAMILY: Arial
+}
+H1
+{
+    FONT-FAMILY: Arial
+}
+H2
+{
+    FONT-FAMILY: Arial
+}
+H3
+{
+    FONT-FAMILY: 'Lucida Sans Unicode', Arial
+}
+H4
+{
+    COLOR: cornflowerblue;
+    FONT-FAMILY: 'Lucida Sans Unicode', Arial
+}
+H5
+{
+    FONT-FAMILY: Arial
+}
+H6
+{
+    FONT-FAMILY: Arial
+}
+HR
+{
+    COLOR: #ffd0b9;
+    FONT-FAMILY: Arial
+}
+IMG 
+{
+    FONT-FAMILY: Arial
+}
+INPUT
+{
+    BACKGROUND-COLOR: white;
+    COLOR: maroon;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold
+}
+INPUT.texto1
+{
+    BACKGROUND-COLOR: white;
+    COLOR: maroon;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold;
+    width:100px
+}
+
+A:active
+{
+    FONT-FAMILY: Arial
+}
+ACRONYM
+{
+    FONT-FAMILY: Arial
+}
+ADDRESS
+{
+    FONT-FAMILY: Arial
+}
+APPLET
+{
+    FONT-FAMILY: Arial
+}
+AREA
+{
+    FONT-FAMILY: Arial
+}
+B
+{
+    FONT-FAMILY: Arial
+}
+BIG
+{
+    FONT-FAMILY: Arial
+}
+BLOCKQUOTE
+{
+    FONT-FAMILY: Arial
+}
+CENTER
+{
+    FONT-FAMILY: Arial
+}
+CITE
+{
+    FONT-FAMILY: Arial
+}
+CODE
+{
+    FONT-FAMILY: Arial
+}
+COLGROUP
+{
+    FONT-FAMILY: Arial
+}
+DD
+{
+    FONT-FAMILY: Arial
+}
+DEL
+{
+    FONT-FAMILY: Arial
+}
+DFN
+{
+    FONT-FAMILY: Arial
+}
+DIR
+{
+    FONT-FAMILY: Arial
+}
+DIV
+{
+    FONT-FAMILY: Arial
+}
+DL
+{
+    FONT-FAMILY: Arial
+}
+DT
+{
+    FONT-FAMILY: Arial
+}
+EM
+{
+    FONT-FAMILY: Arial
+}
+EMBED
+{
+    FONT-FAMILY: Arial
+}
+FIELDSET
+{
+    FONT-FAMILY: Arial
+}
+HTML
+{
+    FONT-FAMILY: Arial
+}
+I
+{
+    FONT-FAMILY: Arial
+}
+IFRAME
+{
+    FONT-FAMILY: Arial
+}
+INS
+{
+    FONT-FAMILY: Arial
+}
+KBD
+{
+    FONT-FAMILY: Arial
+}
+LABEL
+{
+    COLOR: maroon;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9px;
+	font-weight:normal;
+}
+LABEL.indicador
+{
+    COLOR: RoyalBlue;
+    FONT-FAMILY: sans-serif, Verdana, Arial, Helvetica;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: left
+}
+LABEL.indr
+{
+    COLOR: Red;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: left
+}
+LABEL.txt10Arial
+{
+    FONT-SIZE: 9px;
+    COLOR: maroon;
+    FONT-FAMILY: Arial
+}
+LABEL.clsTitulo
+{
+    COLOR: cornflowerblue;
+    FONT-FAMILY: 'Lucida Sans Unicode', Arial;
+    FONT-SIZE: 12px;
+	font-weight:bolder;
+    POSITION: static;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 30px
+}
+LEGEND
+{
+    FONT-FAMILY: Arial
+}
+LI
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 11px
+}
+LISTING
+{
+    FONT-FAMILY: Arial
+}
+MAP
+{
+    FONT-FAMILY: Arial
+}
+MENU
+{
+    FONT-FAMILY: Arial
+}
+OBJECT
+{
+    FONT-FAMILY: Arial
+}
+OL
+{
+    FONT-FAMILY: Arial
+}
+OPTION
+{
+    BACKGROUND-COLOR: white;
+    COLOR: maroon;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bold
+}
+P
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: xx-small;
+    FONT-VARIANT: normal
+}
+PLAINTEXT
+{
+    FONT-FAMILY: Arial
+}
+PRE
+{
+    FONT-FAMILY: Arial
+}
+Q
+{
+    FONT-FAMILY: Arial
+}
+S
+{
+    FONT-FAMILY: Arial
+}
+SAMP
+{
+    FONT-FAMILY: Arial
+}
+SELECT
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold
+}
+SMALL
+{
+    FONT-FAMILY: Arial
+}
+SPAN
+{
+    COLOR: darkblue;
+    FONT-FAMILY: sans-serif, Verdana, Arial, Helvetica;
+	font-style:normal;
+    FONT-SIZE: 9px;
+}
+a:hover { 
+	COLOR: darkblue;
+	TEXT-DECORATION: none
+}
+a:active
+{
+	COLOR: darkblue;
+	TEXT-DECORATION: none
+}
+.newlink
+{
+    COLOR: darkblue;
+    TEXT-DECORATION: none
+}
+STRIKE
+{
+    FONT-FAMILY: Arial
+}
+STRONG
+{
+    FONT-FAMILY: Arial
+}
+SUB
+{
+    FONT-FAMILY: Arial
+}
+TBODY
+{
+    FONT-FAMILY: Arial
+}
+TEXTAREA
+{
+    BACKGROUND-COLOR: white;
+    COLOR: maroon;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold
+}
+TFOOT
+{
+    FONT-FAMILY: Arial
+}
+TH
+{
+    BACKGROUND-ATTACHMENT: scroll;
+    BACKGROUND-IMAGE: url(../imagenes/Tit_Caption.gif);
+    BACKGROUND-POSITION: center top;
+    BACKGROUND-REPEAT: repeat;
+    BORDER-BOTTOM: thin;
+    BORDER-LEFT: thin;
+    BORDER-RIGHT: thin;
+    BORDER-TOP: thin;
+    COLOR: white;
+    FONT-FAMILY: 'Arial';
+    FONT-SIZE: 12px;
+    HEIGHT: 100%
+}
+THEAD
+{
+    BACKGROUND-COLOR: maroon;
+    COLOR: white;
+    FONT-FAMILY: Arial
+}
+TR
+{
+    BACKGROUND-IMAGE: url(../imagenes/Fondo_Fila.jpg);
+    BORDER-BOTTOM: blue;
+    BORDER-LEFT: 1pt;
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    FONT-FAMILY: 'Arial';
+    HEIGHT: 20px
+}
+.Highlight 
+{
+	BACKGROUND-IMAGE: url(../imagenes/Fondo_Fila_HL.jpg);	
+}
+.normalize
+{
+	BACKGROUND-IMAGE: url(../imagenes/Fondo_Fila.jpg);
+}
+TR.trnsprt
+{
+    BACKGROUND-IMAGE: none;
+    BORDER-BOTTOM: blue;
+    BORDER-LEFT: 1pt;
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    FONT-FAMILY: 'Arial';
+    HEIGHT: 20px
+}
+TT
+{
+    FONT-FAMILY: Arial
+}
+U
+{
+}
+UL
+{
+    FONT-FAMILY: 'Arial'
+}
+VAR
+{
+    FONT-FAMILY: Arial
+}
+WBR
+{
+    FONT-FAMILY: Arial
+}
+XMP
+{
+    FONT-FAMILY: Arial
+}
+TD.clsTitleHeader
+{
+    BACKGROUND-IMAGE: url(../imagenes/bgHeaderSmall.gif);
+    BACKGROUND-POSITION: center center;
+    HEIGHT: 100%;
+    WIDTH: 100%
+}
+.clsPageHeader
+{
+    BACKGROUND-IMAGE: url(../imagenes/bgMarqueeHeaderLarge.gif);
+    BACKGROUND-POSITION: left top;
+    BACKGROUND-REPEAT: no-repeat;
+    HEIGHT: 100%;
+    TOP: 100%;
+    WIDTH: 800px;
+    BACKGROUND-: no-repeat
+}
+.clsBodyPage
+{
+    BACKGROUND-IMAGE: url(../imagenes/bgBodyLarge.gif);
+    BACKGROUND-POSITION: left top;
+    BACKGROUND-REPEAT: repeat;
+    HEIGHT: 100%;
+    MARGIN-LEFT: 15px;
+    MARGIN-TOP: 15px;
+    WIDTH: 100%
+}
+TABLE
+{
+    BORDER-BOTTOM: 1pt;
+    BORDER-LEFT: 1pt;
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: x-small;
+    FONT-WEIGHT: 100;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 5px;
+    PADDING-RIGHT: 5px;
+    WIDTH: 100%
+}
+TD.clsToolbarHeader
+{
+}
+.clsIndex
+{
+}
+TD.clsTDStatusBar
+{
+    BACKGROUND-COLOR: maroon;
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9pt
+}
+TD.clsTdMessageBar
+{
+    BORDER-BOTTOM: maroon thin;
+    BORDER-LEFT: maroon thin;
+    BORDER-RIGHT: maroon thin;
+    BORDER-TOP: maroon thin;
+    FONT-FAMILY: 'Arial';
+    FONT-SIZE: 8px
+}
+.clsContentIndex
+{
+    BACKGROUND-IMAGE: url(../imagenes/bgContentIndex.gif);
+    BACKGROUND-REPEAT: no-repeat;
+    HEIGHT: 100%;
+    WIDTH: 100%
+}
+INPUT.Out
+{
+    BACKGROUND-COLOR: transparent;
+    BORDER-BOTTOM: 0px;
+    BORDER-LEFT: 0px;
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    COLOR: maroon;
+    CURSOR: default;
+    FONT-FAMILY: 'Arial';
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold
+}
+TABLE.clsToolbar
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    WIDTH: 50%
+}
+.clsBoton
+{
+    BACKGROUND-IMAGE: url(../imagenes/Fondo_Boton5.jpg);
+    BORDER-BOTTOM: ridge;
+    BORDER-LEFT: ridge;
+    BORDER-RIGHT: ridge;
+    BORDER-TOP: ridge;
+    COLOR: #006699;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    HEIGHT: 20pt;
+    PADDING-TOP: 0pt
+}
+.clsBotonNaranjo
+{
+    BACKGROUND-IMAGE: url(../imagenes/fon_aleta.gif);
+    BORDER-BOTTOM: ridge;
+    BORDER-LEFT: ridge;
+    BORDER-RIGHT: ridge;
+    BORDER-TOP: ridge;
+    COLOR: #006699;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    HEIGHT: 20pt;
+    PADDING-TOP: 0pt
+}
+TABLE.clsFinTabla
+{
+    BORDER-BOTTOM: cornflowerblue double;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none
+}
+TABLE.clsIniTabla
+{
+    BORDER-BOTTOM: cornflowerblue double;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: cornflowerblue double
+}
+TABLE.clsTablaCaja
+{
+    BORDER-BOTTOM: cornflowerblue double;
+    BORDER-LEFT: cornflowerblue double;
+    BORDER-RIGHT: cornflowerblue double;
+    BORDER-TOP: medium none
+}
+A:hover
+{
+    COLOR: #000e78;
+    TEXT-DECORATION: underline
+}
+.clsLblTitulo
+{
+    COLOR: cornflowerblue;
+    FONT-FAMILY: 'Lucida Sans Unicode', Arial;
+    FONT-SIZE: 12px;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 30px
+}
+HR.clsTitulo
+{
+    LEFT: 80px;
+    MARGIN-LEFT: 50px;
+	MARGIN-TOP: 0px;
+    PADDING-TOP: 0px;
+    POSITION: static;
+    TOP: 35px;
+    WIDTH: 90%
+}
+TR.clsFilaOriginal
+{
+    BACKGROUND-IMAGE: url(../imagenes/Fondo_Fila.jpg);
+    CURSOR: hand;
+    FONT-FAMILY: Arial
+}
+TR.clsFilaSeleccionada
+{
+    BACKGROUND-IMAGE: url(../imagenes/fila_selec.gif);
+    CURSOR: hand;
+    FONT-FAMILY: Arial
+}
+.clsFilaEnBlanco
+{
+    BACKGROUND-IMAGE: none;
+}
+TD.clsFilaEnBlanco
+{
+    BACKGROUND-IMAGE: none;
+}
+.ETIQUETA
+{
+    BACKGROUND-IMAGE: url(../imagenes/fon_aleta.gif);
+    COLOR: white;
+    FONT-FAMILY: Arial, 'Comic Sans MS';
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bold;
+    PADDING-TOP: 3pt;
+    TEXT-ALIGN: left;
+    TEXT-INDENT: 10pt;
+    VERTICAL-ALIGN: sub
+}
+.COMBO1
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold;
+    WIDTH: 100px
+}
+.COMBO2
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold;
+    WIDTH: 200px
+}
+.COMBO3
+{
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9px;
+    FONT-WEIGHT: bold;
+    WIDTH: 300px
+}
+.linkaleta
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+.linkaleta2:hover
+{
+    COLOR: #f0ef93;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+.linkaleta:active
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+.linkaleta:visited
+{
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+.linkaleta:hover
+{
+    COLOR: #f0ef93;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+    FONT-WEIGHT: bold;
+    TEXT-DECORATION: none
+}
+TABLE.tablalayer
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: 1pt;
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 6pt;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    WIDTH: 100%
+}
+TABLE.tablalayer6
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: 1pt;
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 6pt;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    WIDTH: 600px
+}
+TABLE.tablalayer_z
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: 1pt;
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 6pt;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    WIDTH: 1050px;
+}
+.ETIQUETA4
+{
+    BACKGROUND-IMAGE: url(../imagenes/fonDO_BOTON_3.gif);
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 6pt;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: left
+}
+.Etiqueta6
+{
+    BACKGROUND-IMAGE: url(../imagenes/tit_caption9.gif);
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bold;
+    TEXT-ALIGN: center
+}
+
+.clsFilaSeleccionada2
+{
+    BACKGROUND-IMAGE: url(../imagenes/tit_caption16.gif)
+}
+TR.clsFilaSeleccionada2
+{
+    BACKGROUND-IMAGE: url(../imagenes/tit_caption16.gif);
+    BORDER-RIGHT: 3pt;
+    FONT-FAMILY: Arial
+}
+TD.clsFilaSeleccionada2
+{
+    BACKGROUND-IMAGE: url(../imagenes/tit_caption16.gif);
+    FONT-FAMILY: Arial
+}
+.tablalayer2
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: 1pt;
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 6pt;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    WIDTH: 100%
+}
+TABLE.tablalayer2
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: 1pt;
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 6pt;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    WIDTH: 100%
+}
+TABLE.nota
+{
+    BORDER-BOTTOM: 2px medium;
+    BORDER-LEFT: medium;
+    BORDER-RIGHT: medium;
+    BORDER-TOP: medium;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 6pt;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    WIDTH: 400px
+}
+tr.nota
+{
+    BORDER-BOTTOM: medium;
+    BACKGROUND-IMAGE: none;
+    FONT-FAMILY: Arial;
+}
+TD.nota1
+{
+    BACKGROUND-IMAGE: none;
+    FONT-FAMILY: Arial;
+    WIDTH: 120px
+}
+TD.nota2
+{
+    BACKGROUND-IMAGE: none;
+    FONT-FAMILY: Arial;
+    WIDTH: 280px
+}
+TABLE.nota3
+{
+    BORDER-BOTTOM: medium none;
+    BORDER-LEFT: 1pt;
+    BORDER-RIGHT: 1pt;
+    BORDER-TOP: 1pt;
+    COLOR: black;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 6pt;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-RIGHT: 0px;
+    WIDTH: 100%
+}
+TD.nota3
+{
+    BACKGROUND-IMAGE: none;
+    FONT-FAMILY: Arial;
+    WIDTH: 100%
+}
+.clsFilaEnBlancoFinTabla
+{
+    BACKGROUND-IMAGE: url(../imagenes/trasparente.gif);
+    BORDER-BOTTOM: cornflowerblue double;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	MARGIN-LEFT: 0px;
+	MARGIN-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+    WIDTH: 100%
+}
+.clsFilaEnBlancoFinTabla2
+{
+    BACKGROUND-IMAGE: url(../imagenes/trasparente.gif);
+    BORDER-BOTTOM: none;
+    BORDER-LEFT: none;
+    BORDER-RIGHT: none;
+    BORDER-TOP: none;
+	MARGIN-LEFT: 0px;
+	MARGIN-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+    WIDTH: 100%
+}
+.clsFilaEnBlancoFinTabla6
+{
+    BACKGROUND-IMAGE: url(../imagenes/trasparente.gif);
+    BORDER-BOTTOM: cornflowerblue double;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	MARGIN-LEFT: 0px;
+	MARGIN-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+    WIDTH: 600px
+}
+.clsFilaEnBlancoFinTabla_z
+{
+    BACKGROUND-IMAGE: url(../imagenes/trasparente.gif);
+    BORDER-BOTTOM: cornflowerblue double;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+	MARGIN-LEFT: 0px;
+	MARGIN-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+    WIDTH: 1050px;
+}
+TD.clsFilaEnBlancoFinTabla
+{
+    BACKGROUND-IMAGE: url(../imagenes/trasparente.gif);
+    BORDER-BOTTOM: cornflowerblue double;
+    BORDER-LEFT: medium none;
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none
+}
+TD.Etiqueta6
+{
+    BACKGROUND-IMAGE: url(../imagenes/tit_caption9.gif);
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT:normal;
+    TEXT-ALIGN: center
+}
+A.linkcli
+{
+    COLOR: maroon;
+    FONT-FAMILY: Verdana, Arial, helvetica, sans-serif;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center
+}
+TR.Etiqueta6
+{
+    BACKGROUND-IMAGE: url(../imagenes/tit_caption9.gif);
+    COLOR: white;
+    FONT-FAMILY: Arial;
+    FONT-SIZE: 9pt;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center
+}
+A.linkcli:active
+{
+    COLOR: red;
+    FONT-FAMILY: Verdana, Arial, helvetica, sans-serif;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center
+}
+A.linkcli:visited
+{
+    COLOR: maroon;
+    FONT-FAMILY: Verdana, Arial, helvetica, sans-serif;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center
+}
+A.linkcli:hover
+{
+    COLOR: #79befe;
+    FONT-FAMILY: Verdana, Arial, helvetica, sans-serif;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center
+}
+.linkaleta2
+{
+    COLOR: #f0ef93;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+A.linkalate2:active
+{
+    COLOR: #f0ef93;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+A.linkaleta2:visited
+{
+    COLOR: #f0ef93;
+    FONT-FAMILY: Verdana, Arial;
+    FONT-SIZE: 7pt;
+    FONT-WEIGHT: bolder;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none
+}
+.TH1
+{
+    BACKGROUND-ATTACHMENT: scroll;
+    BACKGROUND-IMAGE: url(../imagenes/Tit_Caption.gif);
+    BACKGROUND-POSITION: center top;
+    BACKGROUND-REPEAT: repeat;
+    BORDER-BOTTOM: thin;
+    BORDER-LEFT: thin;
+    BORDER-RIGHT: thin;
+    BORDER-TOP: thin;
+    COLOR: white;
+    FONT-FAMILY: 'Arial';
+    FONT-SIZE: 12px;
+    FONT-WEIGHT: bold;
+    HEIGHT: 100%;
+    TEXT-ALIGN: center
+}
+
+	TABLE.clsLineaAzulOfi
+{
+	    BORDER-BOTTOM: cornflowerblue solid 1px;
+	    BORDER-TOP: cornflowerblue solid 1px;
+	    BORDER-LEFT: medium none;
+	    BORDER-RIGHT: medium none;
+}
+TABLE.clsLineaAzul
+{
+	    BORDER-TOP: cornflowerblue solid 1px;
+	    BORDER-LEFT: medium none;
+	    BORDER-RIGHT: medium none;
+	    BORDER-TOP: medium none    
+}
+TD.clsBorderAzul
+ {
+	BORDER-TOP: cornflowerblue solid 1px;	
+}	
+TD.clsBorderLinea
+{
+	 BORDER-TOP: 1pt solid;
+   	 FONT-FAMILY: 'Arial';
+   	 FONT-SIZE: 10pt;
+                 FONT-WEIGHT: normal
+}	
+TR.blanco
+{
+	 BACKGROUND-IMAGE: none;
+}
+TD.blanco
+{
+	 BACKGROUND-IMAGE: none;
+}	
+TR.clsBorderLinea
+{
+	 BACKGROUND-IMAGE: url(../imagenes/Fondo_Fila.jpg);
+	 BORDER-BOTTOM: 1pt solid;
+	 BORDER-LEFT: 1pt;
+	 BORDER-RIGHT: 1pt;
+	 BORDER-TOP: 1pt;
+	 FONT-FAMILY: 'Arial';
+	 HEIGHT: 20px
+}
+</STYLE>

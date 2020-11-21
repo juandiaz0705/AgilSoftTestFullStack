@@ -1,0 +1,63 @@
+body {
+	color:#94223f;
+	background:transparent url(../imagenes/fondo_edificio.gif);}
+#root {
+	color:#94223f;
+	background:transparent;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:60%;}
+a {
+	text-decoration:none;
+	color:#123e6f;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 9px;
+	margin:0px;
+	padding:0px;
+	background:transparent;}
+a:hover {
+	color:#3399ff;
+	background:transparent;}
+a:active {
+	color:red;
+	background:transparent;}
+a.tracked {
+	color:#123e6f;
+	background:transparent;}
+a.subexpanded {
+	color:red;
+	background:transparent;}
+a.subclosed {
+	color:black;
+	background:transparent;}
+ul {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#123e6f;
+	background:transparent;
+	list-style:none;
+	list-style-image:none;
+	margin:0;}
+.li {
+	margin:0px;
+	padding:0px;
+	color:#123e6f;
+	background:transparent;
+	list-style:none;
+	list-style-image:none;}
+#op1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#123e6f;
+	background:transparent;
+	list-style-image:none;
+	margin:0;}
+SPAN
+	{
+	COLOR: #123e6f;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 9px;
+}
+table {
+	margin:0px;
+	padding:0px;
+	}

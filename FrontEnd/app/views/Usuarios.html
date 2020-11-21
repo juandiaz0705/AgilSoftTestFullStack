@@ -1,0 +1,70 @@
+﻿<style>
+    table {
+        width: 210px;
+    }
+
+    .labelsSitio {
+        font-size: 10pt;
+        font-family: verdana;
+        margin-bottom: 2px;
+        text-align: center
+    }
+
+    .year {
+        padding: 5px;
+    }
+
+    .month {
+        padding: 5px;
+    }
+</style>
+<script>
+</script>
+<!-- FIN HEADER -->
+<div class="col-xs-12">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-3 pull-right">
+                <button class="btn btn-primary" ng-click="Add()">Crear Usuario</button>
+                <button class="btn btn-primary" ng-click="AddPerfil()">Crear Perfil</button>
+            </div>
+        </div>
+    </div>
+    <div class="row center-block">
+        <table id="ofertasCliente" border="0" st-table="display_records" st-safe-src="lstUsuarios" class="table table-striped grilla">
+            <thead>
+                <tr>
+                    <th colspan="12"><input st-search="" class="form-control" placeholder="Buscador Global..." type="text" /></th>
+                </tr>
+                <tr>
+                    <th st-sort="USUARIO" style="text-align: center">NOMBRE</th>
+                    <th st-sort="EMAIL" style="text-align: center">USERNAME</th>
+                    <th st-sort="PERFIL_DESCRI" style="text-align: center">PERFIL</th>
+                    <th st-sort="VIGENCIA" style="text-align: center">ESTADO</th>
+                    <th st-skip-natural="true"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr st-select-row="row" st-select-mode="single" ng-repeat="row in display_records">
+
+                    <td style="text-align: center">{{row.NOMBRE}}</td>
+                    <td style="text-align: center">{{row.USER_NAME}}</td>
+                    <td style="text-align: center">{{row.PERFIL_DESCRIPCION}}</td>
+                    <td style="text-align: center">{{row.ESTADO_DESCRIPCION}}</td>
+                    <td>
+                        <i style="cursor:pointer;color:#337ab7;" title="Editar" class="fa fa-edit" ng-click="Edit(row)"></i>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="11" class="text-center">
+                        <div st-pagination="" st-items-by-page="itemsByPage" st-displayed-pages="displayedPages"></div>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+
+

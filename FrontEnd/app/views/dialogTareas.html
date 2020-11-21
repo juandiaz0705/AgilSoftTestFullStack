@@ -1,0 +1,63 @@
+<div>
+    <!--    <div class="modal-dialog" ng-class="{'modal-sm': size == 'sm', 'modal-lg': size == 'lg'}">
+        <div class="modal-content">-->
+
+    <style>
+        .modalControles {
+            height: 27px !important;
+            font-size: 11px !important;
+            text-align: center;
+        }
+
+        .ngdialog.ngdialog-theme-default {
+            padding-top: 5px;
+        }
+
+        .modalTabla {
+            font-size: 12px !important;
+        }
+    </style>
+    <div ng-app="myApp" ng-controller="tareasController">
+        <div class="modal-header">
+            <h3 class="modal-title" style="text-align: center" id="TituloModal">Tarea</h3>
+        </div>
+        <div class="modal-body" style="text-align: center">
+            <div class="row">
+                <div class="form-group col-md-12" style="text-align: center">
+                    <label class="labelsSitio">DATOS DE LA TAREA</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6" style="text-align: center">
+                    <label class="labelsSitio" for="nombre">NOMBRE</label>
+                    <input type="text"
+                           id="nombre"
+                           name="nombre"
+                           ng-model="nombre"
+                           class="form-control" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-6" style="text-align: center">
+                    <label class="labelsSitio" for="aliadoModel">USUARIO</label>
+                    <select ng-model="usuarioAsignar" ng-options="item.NOMBRE for item in lstUsuarios track by item.ID" class="form-control">
+                    </select>
+                </div>
+                <div class="form-group col-md-12" style="text-align: center">
+                    <label class="labelsSitio" for="direccion">DESCRIPCI&Oacute;N</label>
+                    <input type="text"
+                           id="descripcion"
+                           name="descripcion"
+                           ng-model="descripcion"
+                           class="form-control" autocomplete="off" />
+                </div>
+
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button ng-click="grabar()" class="btn btn-primary ">Aceptar</button>
+            <button ng-click="closeThisDialog(0)" class="btn btn-warning">Cerrar</button>
+        </div>
+        <!--
+            </div>
+        </div>-->
+    </div>
+</div>

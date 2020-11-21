@@ -1,0 +1,22 @@
+﻿var myApp = angular.module('documentos', ['pdf', 'ngSanitize']);
+myApp.controller('pdfController', function ($scope, dataServiceTranversal, $sce, configuracion) {
+   
+$scope.urlServidor = configuracion.urlServidor;
+   console.log($scope.urlServidor);
+
+    var idGeneracion = sessionStorage.getItem('idGeneracion');
+    console.log(idGeneracion);
+
+    dataServiceTranversal.ObtienePdf(idGeneracion).then(function (response) {
+
+    $scope.RutaPdf = response;
+    console.log($scope.RutaPdf);
+    $scope.trustSrc = function(src) {
+        return $sce.trustAsResourceUrl(src);
+    };
+
+	$scope.movie = { src: $scope.RutaPdf, title: "Documentación Normativa" };
+    //$scope.movie = { src: $scope.urlServidor + '/' + $scope.RutaPdf, title: "Documentación Normativa" };
+
+ });
+});

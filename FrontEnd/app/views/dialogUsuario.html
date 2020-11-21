@@ -1,0 +1,75 @@
+<div>
+    <!--    <div class="modal-dialog" ng-class="{'modal-sm': size == 'sm', 'modal-lg': size == 'lg'}">
+        <div class="modal-content">-->
+
+    <style>
+        .modalControles {
+            height: 27px !important;
+            font-size: 11px !important;
+            text-align: center;
+        }
+
+        .ngdialog.ngdialog-theme-default {
+            padding-top: 5px;
+        }
+
+        .modalTabla {
+            font-size: 12px !important;
+        }
+    </style>
+    <div ng-app="myApp" ng-controller="usuariosController">
+        <div class="modal-header">
+            <h3 class="modal-title" style="text-align: center">Usuario</h3>
+        </div>
+        <div class="modal-body" style="text-align: center">
+            <div class="row">
+                <div class="form-group col-md-12" style="text-align: center">
+                    <label class="labelsSitio">DATOS DEL USUARIO</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-4" style="text-align: center">
+                    <label class="labelsSitio" for="usuario">NOMBRE</label>
+                    <input type="text"
+                           id="usuario"
+                           name="usuario"
+                           ng-model="usuario"
+                           class="form-control" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-4" style="text-align: center">
+                    <label class="labelsSitio" for="email">USERNAME</label>
+                    <input type="text"
+                           id="email"
+                           name="email"
+                           ng-model="email"
+                           class="form-control" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-4" style="text-align: center">
+                    <label class="labelsSitio" for="email">PASSWORD</label>
+                    <input type="password"
+                           id="password"
+                           name="password"
+                           ng-model="password"
+                           class="form-control" autocomplete="off" />
+                </div>
+                <div class="form-group col-md-4" style="text-align: center">
+                    <label class="labelsSitio" for="aliadoModel">PERFIL</label>
+                    <select ng-model="perfil" ng-options="item.DESCRIPCION for item in lstPerfiles track by item.ID" class="form-control">
+                    </select>
+                </div>
+                <div class="form-group col-md-4" style="text-align: center">
+                    <label class='checkbox-inline' style='margin: 10px;padding: 5px;'>
+                        <input type='checkbox' ng-model="vigencia"> ACTIVO
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button ng-click="grabarUsuarios()" class="btn btn-primary ">Aceptar</button>
+            <button ng-click="closeThisDialog(0)" class="btn btn-warning">Cerrar</button>
+        </div>
+        <!--
+            </div>
+        </div>-->
+    </div>
+</div>
